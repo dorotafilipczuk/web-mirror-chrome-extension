@@ -13,4 +13,8 @@
     "activeTab",
     "https://ajax.googleapis.com/"
   ]
+  
+  "background": {
+      "scripts": [ "detect.js"]
+  }
 }
