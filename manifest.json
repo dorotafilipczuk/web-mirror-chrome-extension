@@ -1,5 +1,5 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 2,
 
   "name": "WM2 Chrome extension",
   "description": "This extension is for the Meaningful Consent in Digital Economy project, University of Southampton. Developed by Dorota Filipczuk and Richard Gomer.",
