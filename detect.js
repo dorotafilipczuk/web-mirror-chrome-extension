@@ -32,5 +32,15 @@ function detect() {
 
     // TODO(dorotafilipczuk): interventions / notifications.
 }
+detect();
+
+// GET THE BROWSING HISTORY (the last 500 URLs).
+var pages = '';
+chrome.history.search({text: '', maxResults: 500}, function(data) {
+    data.forEach(function(page) {
+        pages += page.url + '\n';
+    });
+		alert(pages);
+});
 
 setInterval(detect, 60 * 60 * 1000);

@@ -27,8 +27,8 @@
     "activeTab",
     "<all_urls>",
     "management",
-    "cookies"
+    "cookies",
+    "history"
 
   ]
 }
-
